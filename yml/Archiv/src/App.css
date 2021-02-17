@@ -1,0 +1,141 @@
+@media (max-width: 420px) {
+  .toppic {
+    height: "200px";
+  }
+  .sofunktionierts {
+    color: gray;
+    width: 90%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+  }
+}
+
+@media (min-width: 421px) {
+  .toppic {
+    width: 100%;
+    height: 600px;
+    background-image: url("./files/cloud9.jpg");
+    background-size: 100% 100%;
+    border: 1px solid gray;
+  }
+  .sofunktionierts {
+    display: inline-block;
+    color: gray;
+    width: 25%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+  }
+}
+.landing {
+  background-color: whitesmoke;
+}
+
+.App {
+  text-align: center;
+}
+
+.chooser {
+  background-color: white;
+  border-right: 0 10px 0 10px;
+  border-color: transparent #ba68c8 transparent #ba68c8;
+  border-style: solid;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 8px;
+  width: auto;
+}
+.landing {
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.h3 {
+  text-align: center;
+}
+.h5 {
+  text-align: center;
+}
+.h3-below {
+  padding-top: 1%;
+  text-align: center;
+}
+
+.number {
+  color: blue;
+}
+.faqpic {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.91) 100%
+    ),
+    url("./files/trenner.jpg");
+  background-size: cover;
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  color: white;
+  text-align: center;
+}
+.faqmenu {
+  margin-bottom: 5%;
+  margin: auto;
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+  list-style: none;
+  padding-right: 5%;
+  align-content: center;
+}
+ul li {
+  float: left;
+  width: 150px;
+  font-weight: bold;
+}
+ul li ul {
+  padding: 0;
+}
+ul li ul li {
+  float: none;
+  padding: 5px 5px;
+  font-weight: normal;
+}
+.buttonSupport {
+  padding-top: 1%;
+  position: relative;
+  border-style: dotted;
+  border-color: #ba68c8;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+.buttonReason {
+  padding-top: 1%;
+  position: relative;
+  border-style: dotted;
+  border-color: #ba68c8;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  width: auto;
+}
+.buttonSupport {
+  padding-top: 3%;
+}
+.divpad {
+  padding-bottom: 5%;
+}
+.mailForm {
+  background-color: #ba68c8;
+
+  border-radius: 4px;
+  cursor: pointer;
+}
+.mailfield {
+}
